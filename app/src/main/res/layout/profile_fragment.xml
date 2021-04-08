@@ -93,11 +93,13 @@
             android:id="@+id/save_user_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
             android:text="@string/save"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/school_name_tv" />
+            app:layout_constraintTop_toBottomOf="@id/school_name_tv"
+            app:layout_constraintVertical_bias="0.506" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/add_new_user_button"

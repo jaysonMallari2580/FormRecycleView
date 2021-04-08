@@ -12,9 +12,8 @@ import com.example.formnavhost.ui.main.UserProfile;
 import com.google.android.material.textview.MaterialTextView;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 
-public class    UsersListAdapter extends RecyclerView.Adapter<UsersListAdapter.UsersListViewHolder> {
+public class UsersListAdapter extends RecyclerView.Adapter<UsersListAdapter.UsersListViewHolder> {
 
     ArrayList<UserProfile> mUsersList;
 

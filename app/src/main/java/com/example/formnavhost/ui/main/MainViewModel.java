@@ -15,6 +15,7 @@ public class MainViewModel extends ViewModel {
     private String schoolName ;
 
 
+
     ArrayList<UserProfile> usersList = new ArrayList<UserProfile>();
 
     public void createUser(@NonNull String name, @NonNull String email, @NonNull String schoolName){
